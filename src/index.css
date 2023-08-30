@@ -11,6 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: 'electroharmonix';
+  src: url('./fonts/electroharmonix.otf') format('opentype'); /* Use 'opentype' instead of 'otf' */
+  /* Add more font formats if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.pageTitle {
+  font-family: 'electroharmonix'; /* Use single quotes around font name */
+}
+
 .main-layout {
   min-height: 95vh;
 }

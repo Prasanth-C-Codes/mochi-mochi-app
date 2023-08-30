@@ -7,7 +7,7 @@ export const ProductsList = (props) => {
       <h2 className="text-center fw-bold">{props.title}</h2>
       <Row>
         {props.data.map((item, index) => (
-          <Col lg={3} md={4} className="mb-3">
+          <Col  key={index} lg={3} md={4} className="mb-3">
             <Card>
               <Card.Img variant="top" src={item.image} />
               <Card.Body>

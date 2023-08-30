@@ -13,7 +13,7 @@ const Header = () => {
     <Navbar bg="dark" data-bs-theme="dark" expand="lg" sticky="top" expanded={expanded}>
       <Container>
         <Navbar.Brand as={Link} to="/" className="text-center">
-        <span className="h2 fw-bold me-1 ">MOCHI Mochi</span>
+        <span className="pageTitle h2 fw-bold me-1 ">MochI MochI</span>
 {/*         <small class="text-muted">Mochi</small> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav"  onClick={() => setExpanded(!expanded)}/>
