@@ -12,8 +12,9 @@ const Header = () => {
   return (
     <Navbar bg="dark" data-bs-theme="dark" expand="lg" sticky="top" expanded={expanded}>
       <Container>
-        <Navbar.Brand as={Link} to="/" className="fw-bold me-2">
-          Mochi Mochi
+        <Navbar.Brand as={Link} to="/" className="text-center">
+        <span className="h2 fw-bold me-1 ">MOCHI</span>
+        <small class="text-muted">Mochi</small>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarNav"  onClick={() => setExpanded(!expanded)}/>
 {/* Expanded is set false when any link is clicked & true only when navbar toggle icon is clicked.  */}
