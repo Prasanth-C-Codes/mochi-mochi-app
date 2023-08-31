@@ -7,7 +7,7 @@ export default function GalleryBox({ images }) {
         {images.map((image, index) => (
           <div  key={index} className="col-lg-3 mb-3">
             <a href={image} data-fancybox="gallery">
-              <img src={image} alt={index} className="gallery-image" />
+              <img src={image} alt={index} className="gallery-image" loading="lazy"/>
             </a>
           </div>
         ))}
