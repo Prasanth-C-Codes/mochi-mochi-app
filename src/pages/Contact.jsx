@@ -37,7 +37,7 @@ const Contact = () => {
                 {() => (
                   <Form>
                     <div className="form-group">
-                      <label htmlFor="name">Name:</label>
+                      <label htmlFor="name">Names:</label>
                       <Field
                         type="text"
                         className="form-control"
