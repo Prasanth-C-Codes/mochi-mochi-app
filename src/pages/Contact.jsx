@@ -37,7 +37,8 @@ const Contact = () => {
                 {() => (
                   <Form>
                     <div className="form-group">
-                      <label htmlFor="name">Names:</label>
+                    <FontAwesomeIcon icon="fa-solid fa-user" />
+                      <label htmlFor="name">Name:</label>
                       <Field
                         type="text"
                         className="form-control"
