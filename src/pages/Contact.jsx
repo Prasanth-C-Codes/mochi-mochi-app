@@ -37,7 +37,6 @@ const Contact = () => {
                 {() => (
                   <Form>
                     <div className="form-group">
-                    <FontAwesomeIcon icon="fa-solid fa-user" />
                       <label htmlFor="name">Name:</label>
                       <Field
                         type="text"
